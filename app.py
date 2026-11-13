@@ -68,10 +68,10 @@ elif "ort_data" not in st.session_state:
 
 if "ort_data" in st.session_state:
     data = st.session_state["ort_data"]
-    projects = data["Projects"].copy()
+    projects = data["Cohort 9"].copy()
     perf = data["Performance"].copy()
-    beneficiaries = data["Beneficiaries"].copy()
-    finance = data["Finance"].copy()
+    beneficiaries = data["Cohort 8"].copy()
+    finance = data["Cohort 7"].copy()
 
     st.markdown("### Executive overview")
     if projects.empty:
