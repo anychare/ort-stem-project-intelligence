@@ -59,11 +59,9 @@ if uploaded is not None:
 if "workbook_data" in st.session_state:
   data = st.session_state["workbook_data"]
   sheet_names = list(data.keys())
+  current_file = st.session_state.get("file_name", "Uploaded File")
 
-  st.markdown(
-      f"### Executive overview — {st.session_state.get('file_name', 'Uploaded"
-      " File')}"
-  )
+  st.markdown(f"### Executive overview — {current_file}")
 
   # Dynamic sheet selector (automatically adapts to any workbook)
   if len(sheet_names) > 1:
