@@ -23,7 +23,7 @@ div[data-testid="stMetric"] {
 
 st.title("ORT South Africa")
 st.subheader("STEM Project Intelligence Platform")
-st.caption("Project monitoring • Data analytics • Management reporting")
+st.caption("Project Monitoring • Data Analytics • Reporting")
 
 with st.sidebar:
     st.markdown("## ORT-SPI")
@@ -32,8 +32,8 @@ with st.sidebar:
     st.markdown("### Data source")
     uploaded = st.file_uploader(
         "Upload the standard Excel workbook",
-        type=["xlsx"],
-        help="Expected sheets: Projects, Beneficiaries, Performance and Finance."
+        type=["xlsx", "CSV],
+        help="Expected sheets: Cohort 7, Cohort 8, Cohort 9."
     )
     st.download_button(
         "Download Excel template",
