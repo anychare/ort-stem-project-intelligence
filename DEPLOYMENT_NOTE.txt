@@ -1,0 +1,13 @@
+STREAMLIT COMMUNITY CLOUD DEPLOYMENT
+
+This package is arranged with app.py and requirements.txt at the repository root.
+Upload the CONTENTS of this folder to the root of your GitHub repository.
+Do not upload this ZIP as a single file and do not keep the files inside an extra
+ort_stem_project_intelligence/ directory.
+
+In Streamlit Community Cloud, set the Main file path to: app.py
+
+The app is a prototype. Uploaded workbooks are held in the individual user's
+Streamlit session and are not a shared persistent departmental data store.
+Use synthetic/anonymised data until ORT approves the hosting and data-protection
+arrangements.
