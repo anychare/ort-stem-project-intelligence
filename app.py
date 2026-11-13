@@ -38,7 +38,7 @@ with st.sidebar:
       help="Supports all standard Excel workbooks and CSV files.",
   )
   st.markdown("---")
-  st.caption("Prototype version 0.1 | Internal evaluation")
+  st.caption("IE Version 1.0 | Internal Evaluation")
 
 # Load any uploaded Excel or CSV file into a dictionary of DataFrames
 if uploaded is not None:
@@ -61,11 +61,11 @@ if "workbook_data" in st.session_state:
   sheet_names = list(data.keys())
   current_file = st.session_state.get("file_name", "Uploaded File")
 
-  st.markdown(f"### Executive overview — {current_file}")
+  st.markdown(f"### Executive Summary — {current_file}")
 
   # Dynamic sheet selector (automatically adapts to any workbook)
   if len(sheet_names) > 1:
-    selected_sheet = st.selectbox("Select sheet to analyse", sheet_names)
+    selected_sheet = st.selectbox("Select Worksheet to Analyse", sheet_names)
   else:
     selected_sheet = sheet_names[0]
 
