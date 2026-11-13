@@ -1,6 +1,9 @@
 import pandas as pd
 import streamlit as st
 
+#Rendering the ORT SA logo at the top left
+st.logo("path/to/your/logo.png")
+
 st.set_page_config(
     page_title="ORT STEM Project Intelligence",
     page_icon="📊",
