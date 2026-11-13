@@ -28,7 +28,7 @@ st.subheader("STEM Project Intelligence Platform")
 st.caption("Project Monitoring • Data Analytics • Reporting")
 
 with st.sidebar:
-  st.markdown("## ORT-SPI")
+  st.markdown("## ORT-STEM Project Intelligence")
   st.caption("STEM Department Analytics")
   st.markdown("---")
   st.markdown("### Data source")
