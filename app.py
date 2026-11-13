@@ -32,7 +32,7 @@ with st.sidebar:
     st.markdown("### Data source")
     uploaded = st.file_uploader(
         "Upload the standard Excel workbook",
-        type=["xlsx", "CSV],
+        type=["xlsx", "csv"],
         help="Expected sheets: Cohort 7, Cohort 8, Cohort 9."
     )
     st.download_button(
