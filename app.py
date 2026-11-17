@@ -18,7 +18,7 @@ st.markdown(
 [data-testid="stSidebar"] {background-color: #123B68;}
 [data-testid="stSidebar"] * {color: white !important;}
 div[data-testid="stMetric"] {
-    background: blue; padding: 16px; border-radius: 10px;
+    background: white; padding: 16px; border-radius: 10px;
     border: 1px solid #E5EAF1;
 }
 </style>
