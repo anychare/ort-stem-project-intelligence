@@ -41,7 +41,7 @@ with st.sidebar:
       help="Supports all standard Excel workbooks and CSV files.",
   )
   st.markdown("---")
-  st.caption("IE Version 1.0 | Internal Evaluation")
+  st.caption("IE Version 1.0 | STEM Evaluation")
 
 # Load any uploaded Excel or CSV file into a dictionary of DataFrames
 if uploaded is not None:
