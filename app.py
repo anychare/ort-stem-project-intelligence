@@ -6,7 +6,7 @@ st.logo("Cyan & White.png", size = "Large")
 
 st.set_page_config(
     page_title="ORT STEM Project Intelligence",
-    page_icon="📊",
+    page_icon="Icon.png",
     layout="wide",
     initial_sidebar_state="expanded",
 )
